@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 150" width="760" height="150" role="img" aria-label="Training data: 20,500 pages are rendered, the target transcribes them (19,610 complete answers kept), its hidden states for every conversation are saved to disk (463 GB), and DSpark trains from those saved states into a 245 MB drafter without running the target.">
+<title>Training data: 20,500 pages are rendered, the target transcribes them (19,610 complete answers kept), its hidden states for every conversation are saved to disk (463 GB), and DSpark trains from those saved states into a 245 MB drafter without running the target.</title>
+<style>
+  svg { --surface: #ffffff; --fg: #1b2a3a; --muted: #5b6472; --edge: #b6bec9; --ref: #8a93a3;
+        --accent: #2b4c7e; --accent-soft: #e9eef6;
+        color: var(--fg); font-family: "IBM Plex Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+  .bg { fill: var(--surface); }
+  .svg-accent-soft { fill: var(--accent-soft); } .svg-surface { fill: var(--surface); }
+  .svg-muted { fill: var(--muted); }
+  rect[stroke="currentColor"] { stroke: var(--edge); }
+  line[stroke="currentColor"], path[stroke="currentColor"] { stroke: var(--ref); }
+  marker path { fill: var(--ref); }
+</style>
+<rect class="bg" x="0" y="0" width="760" height="150" rx="10"/>
+<defs><marker id="ar-t" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+<g font-size="12" text-anchor="middle">
+  <rect x="12" y="18" width="160" height="76" rx="6" class="svg-surface" stroke="currentColor"/>
+  <text x="92" y="42" font-weight="600" fill="currentColor">Render pages</text><text x="92" y="61" class="svg-muted" font-size="11">olmOCR-mix, 4 subsets</text><text x="92" y="78" fill="currentColor" font-size="11">20,500 pages</text>
+  <line x1="172" y1="56" x2="202" y2="56" stroke="currentColor" marker-end="url(#ar-t)"/>
+  <rect x="204" y="18" width="160" height="76" rx="6" class="svg-surface" stroke="currentColor"/>
+  <text x="284" y="42" font-weight="600" fill="currentColor">Target transcribes</text><text x="284" y="61" class="svg-muted" font-size="11">14.1M tokens generated</text><text x="284" y="78" fill="currentColor" font-size="11">19,610 complete answers</text>
+  <line x1="364" y1="56" x2="394" y2="56" stroke="currentColor" marker-end="url(#ar-t)"/>
+  <rect x="396" y="18" width="160" height="76" rx="6" class="svg-surface" stroke="currentColor"/>
+  <text x="476" y="42" font-weight="600" fill="currentColor">Save hidden states</text><text x="476" y="61" class="svg-muted" font-size="11">layers 2, 14, 25, 28</text><text x="476" y="78" fill="currentColor" font-size="11">463 GB on disk</text>
+  <line x1="556" y1="56" x2="586" y2="56" stroke="currentColor" marker-end="url(#ar-t)"/>
+  <rect x="588" y="18" width="160" height="76" rx="6" class="svg-accent-soft" style="stroke: var(--accent)"/>
+  <text x="668" y="42" font-weight="600" fill="currentColor">Train DSpark</text><text x="668" y="61" class="svg-muted" font-size="11">4 epochs, read from disk</text><text x="668" y="78" fill="currentColor" font-size="11">245 MB drafter</text>
+  <path d="M16,106 V112 H168 V106" fill="none" stroke="currentColor"/>
+  <text x="92" y="132" class="svg-muted" font-size="11">CPU</text>
+  <path d="M208,106 V112 H552 V106" fill="none" stroke="currentColor"/>
+  <text x="380" y="132" class="svg-muted" font-size="11">target model running in vLLM</text>
+  <path d="M592,106 V112 H744 V106" fill="none" stroke="currentColor"/>
+  <text x="668" y="132" class="svg-muted" font-size="11">speculators; target not needed</text>
+</g>
+</svg>

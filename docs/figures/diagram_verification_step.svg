@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 230" width="760" height="230" role="img" aria-label="The drafter proposes seven tokens; the target accepts the first three, replaces the fourth with its own token, and discards the rest, committing four tokens in one step.">
+<title>The drafter proposes seven tokens; the target accepts the first three, replaces the fourth with its own token, and discards the rest, committing four tokens in one step.</title>
+<style>
+  svg { --surface: #ffffff; --fg: #1b2a3a; --muted: #5b6472; --line: #e4e8ee; --edge: #b6bec9;
+        --ref: #8a93a3; --accent: #2b4c7e; --accent-soft: #e9eef6; --ok: #2b4c7e; --s2: #d0675a;
+        --warn: #d0675a;
+        color: var(--fg); font-family: "IBM Plex Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+  .bg { fill: var(--surface); }
+  .svg-accent { fill: var(--accent); } .svg-accent-soft { fill: var(--accent-soft); }
+  .svg-surface { fill: var(--surface); } .svg-muted { fill: var(--muted); }
+  .svg-line { stroke: var(--line); } .svg-ok { fill: var(--ok); } .svg-warn { fill: var(--warn); }
+  .svg-s2 { fill: var(--s2); }
+  rect[stroke="currentColor"] { stroke: var(--edge); }
+  line[stroke="currentColor"], path[stroke="currentColor"] { stroke: var(--ref); }
+  marker path { fill: var(--ref); }
+
+  @keyframes k1 { 0%, 2.00% { opacity: 0 } 4.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k1 { animation: k1 10.0s linear infinite both }
+  @keyframes k2 { 0%, 3.80% { opacity: 0 } 6.30%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k2 { animation: k2 10.0s linear infinite both }
+  @keyframes k3 { 0%, 5.60% { opacity: 0 } 8.10%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k3 { animation: k3 10.0s linear infinite both }
+  @keyframes k4 { 0%, 7.40% { opacity: 0 } 9.90%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k4 { animation: k4 10.0s linear infinite both }
+  @keyframes k5 { 0%, 9.20% { opacity: 0 } 11.70%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k5 { animation: k5 10.0s linear infinite both }
+  @keyframes k6 { 0%, 11.00% { opacity: 0 } 13.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k6 { animation: k6 10.0s linear infinite both }
+  @keyframes k7 { 0%, 12.80% { opacity: 0 } 15.30%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k7 { animation: k7 10.0s linear infinite both }
+  @keyframes k8 { 0%, 20.00% { opacity: 0 } 22.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k8 { animation: k8 10.0s linear infinite both }
+  @keyframes k9 { 0%, 25.00% { opacity: 0 } 27.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k9 { animation: k9 10.0s linear infinite both }
+  @keyframes k10 { 0%, 30.00% { opacity: 0 } 32.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k10 { animation: k10 10.0s linear infinite both }
+  @keyframes k11 { 0%, 35.00% { opacity: 0 } 37.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k11 { animation: k11 10.0s linear infinite both }
+  @keyframes k12 { 0%, 41.00% { opacity: 0 } 43.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k12 { animation: k12 10.0s linear infinite both }
+  @keyframes k13 { 0%, 50.00% { opacity: 0 } 52.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k13 { animation: k13 10.0s linear infinite both }
+  @keyframes k14 { 0%, 52.50% { opacity: 0 } 55.00%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k14 { animation: k14 10.0s linear infinite both }
+  @keyframes k15 { 0%, 55.00% { opacity: 0 } 57.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k15 { animation: k15 10.0s linear infinite both }
+  @keyframes k16 { 0%, 57.50% { opacity: 0 } 60.00%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k16 { animation: k16 10.0s linear infinite both }
+  @keyframes k17 { 0%, 61.00% { opacity: 0 } 63.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k17 { animation: k17 10.0s linear infinite both }
+  @media (prefers-reduced-motion: reduce) { g[class^="k"], .ph { animation: none !important; } }
+</style>
+<rect class="bg" x="0" y="0" width="760" height="230" rx="10"/>
+<text x="16" y="48" font-size="13" font-weight="600" fill="currentColor">Drafter guesses</text>
+<text x="16" y="118" font-size="13" font-weight="600" fill="currentColor">Target checks</text>
+<text x="16" y="188" font-size="13" font-weight="600" fill="currentColor">Committed</text>
+<g font-family="IBM Plex Mono, ui-monospace, monospace" font-size="13" text-anchor="middle">
+<g class="k1"><rect x="150" y="26" width="76" height="34" rx="5" class="svg-accent-soft" stroke="currentColor"/><text x="188" y="48" fill="currentColor">achieves</text></g>
+<g class="k2"><rect x="232" y="26" width="76" height="34" rx="5" class="svg-accent-soft" stroke="currentColor"/><text x="270" y="48" fill="currentColor">94</text></g>
+<g class="k3"><rect x="314" y="26" width="76" height="34" rx="5" class="svg-accent-soft" stroke="currentColor"/><text x="352" y="48" fill="currentColor">.</text></g>
+<g class="k4"><rect x="396" y="26" width="76" height="34" rx="5" class="svg-accent-soft" stroke="currentColor"/><text x="434" y="48" fill="currentColor">2</text></g>
+<g class="k5"><rect x="478" y="26" width="76" height="34" rx="5" class="svg-accent-soft" stroke="currentColor" opacity=".55"/><text x="516" y="48" fill="currentColor" opacity=".55">%</text></g>
+<g class="k6"><rect x="560" y="26" width="76" height="34" rx="5" class="svg-accent-soft" stroke="currentColor" opacity=".55"/><text x="598" y="48" fill="currentColor" opacity=".55">accuracy</text></g>
+<g class="k7"><rect x="642" y="26" width="76" height="34" rx="5" class="svg-accent-soft" stroke="currentColor" opacity=".55"/><text x="680" y="48" fill="currentColor" opacity=".55">on</text></g>
+<g class="k8"><text x="188" y="120" class="svg-ok" font-size="18" font-weight="700">✓</text></g>
+<g class="k9"><text x="270" y="120" class="svg-ok" font-size="18" font-weight="700">✓</text></g>
+<g class="k10"><text x="352" y="120" class="svg-ok" font-size="18" font-weight="700">✓</text></g>
+<g class="k11"><text x="434" y="114" class="svg-s2" font-size="18" font-weight="700">✗</text><text x="434" y="134" class="svg-s2" font-size="12">wants "7"</text></g>
+<g class="k12"><text x="516" y="120" class="svg-muted">discarded</text><text x="598" y="120" class="svg-muted">discarded</text><text x="680" y="120" class="svg-muted">discarded</text></g>
+<g class="k13"><rect x="150" y="166" width="76" height="34" rx="5" class="svg-surface" stroke="currentColor"/><text x="188" y="188" fill="currentColor">achieves</text></g>
+<g class="k14"><rect x="232" y="166" width="76" height="34" rx="5" class="svg-surface" stroke="currentColor"/><text x="270" y="188" fill="currentColor">94</text></g>
+<g class="k15"><rect x="314" y="166" width="76" height="34" rx="5" class="svg-surface" stroke="currentColor"/><text x="352" y="188" fill="currentColor">.</text></g>
+<g class="k16"><rect x="396" y="166" width="76" height="34" rx="5" class="svg-surface" stroke="currentColor" stroke-width="2"/><text x="434" y="188" fill="currentColor" font-weight="600">7</text></g>
+</g>
+<g class="k17"><text x="484" y="180" font-size="12.5" class="svg-muted">4 tokens in one target step:</text><text x="484" y="197" font-size="12.5" class="svg-muted">3 accepted + the target's fix</text></g>
+</svg>

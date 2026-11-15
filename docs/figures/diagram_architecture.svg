@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" role="img" aria-label="The page image goes through the Pixtral encoder into the 28-layer Qwen3 decoder. Hidden states from layers 2, 14 and 25 feed the 3-layer DSpark drafter, which proposes a block of 8 tokens that the target verifies.">
+<title>The page image goes through the Pixtral encoder into the 28-layer Qwen3 decoder. Hidden states from layers 2, 14 and 25 feed the 3-layer DSpark drafter, which proposes a block of 8 tokens that the target verifies.</title>
+<style>
+  svg { --surface: #ffffff; --fg: #1b2a3a; --muted: #5b6472; --line: #e4e8ee; --edge: #b6bec9;
+        --ref: #8a93a3; --accent: #2b4c7e; --accent-soft: #e9eef6; --ok: #2b4c7e; --s2: #d0675a;
+        --warn: #d0675a;
+        color: var(--fg); font-family: "IBM Plex Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+  .bg { fill: var(--surface); }
+  .svg-accent { fill: var(--accent); } .svg-accent-soft { fill: var(--accent-soft); }
+  .svg-surface { fill: var(--surface); } .svg-muted { fill: var(--muted); }
+  .svg-line { stroke: var(--line); } .svg-ok { fill: var(--ok); } .svg-warn { fill: var(--warn); }
+  .svg-s2 { fill: var(--s2); }
+  rect[stroke="currentColor"] { stroke: var(--edge); }
+  line[stroke="currentColor"], path[stroke="currentColor"] { stroke: var(--ref); }
+  marker path { fill: var(--ref); }
+</style>
+<rect class="bg" x="0" y="0" width="760" height="380" rx="10"/>
+      <defs>
+        <marker id="ar-c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker>
+        <marker id="ar-c2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="svg-accent"/></marker>
+      </defs>
+      <!-- page -->
+      <rect x="16" y="150" width="88" height="112" rx="4" class="svg-surface" stroke="currentColor"/>
+      <g class="svg-line" stroke-width="3"><line x1="28" y1="170" x2="92" y2="170"/><line x1="28" y1="184" x2="84" y2="184"/><line x1="28" y1="198" x2="92" y2="198"/><line x1="28" y1="212" x2="70" y2="212"/><line x1="28" y1="226" x2="92" y2="226"/><line x1="28" y1="240" x2="80" y2="240"/></g>
+      <text x="60" y="282" font-size="12" text-anchor="middle" fill="currentColor">page image</text>
+      <text x="60" y="297" font-size="11" text-anchor="middle" class="svg-muted">1540 px long side</text>
+      <line x1="104" y1="206" x2="134" y2="206" stroke="currentColor" marker-end="url(#ar-c)"/>
+      <!-- encoder -->
+      <rect x="136" y="166" width="112" height="80" rx="8" class="svg-surface" stroke="currentColor"/>
+      <text x="192" y="198" font-size="13" font-weight="600" text-anchor="middle" fill="currentColor">Pixtral</text>
+      <text x="192" y="215" font-size="11.5" text-anchor="middle" class="svg-muted">vision encoder</text>
+      <line x1="248" y1="206" x2="288" y2="206" stroke="currentColor" marker-end="url(#ar-c)"/>
+      <text x="268" y="196" font-size="10.5" text-anchor="middle" class="svg-muted">≈2,400</text>
+      <text x="268" y="226" font-size="10.5" text-anchor="middle" class="svg-muted">tokens</text>
+      <!-- decoder stack -->
+      <text x="365" y="24" font-size="13" font-weight="600" text-anchor="middle" fill="currentColor">Qwen3 decoder (target)</text>
+      <rect x="290" y="34" width="150" height="300" rx="8" class="svg-surface" stroke="currentColor"/>
+      <g font-size="11.5" text-anchor="middle">
+        <rect x="302" y="292" width="126" height="26" rx="4" class="svg-accent-soft" stroke="currentColor"/><text x="365" y="309" fill="currentColor">layer 2</text>
+        <rect x="302" y="248" width="126" height="18" rx="3" fill="none" class="svg-line" stroke-dasharray="3 3"/><text x="365" y="261" class="svg-muted">layers 3–13</text>
+        <rect x="302" y="196" width="126" height="26" rx="4" class="svg-accent-soft" stroke="currentColor"/><text x="365" y="213" fill="currentColor">layer 14</text>
+        <rect x="302" y="152" width="126" height="18" rx="3" fill="none" class="svg-line" stroke-dasharray="3 3"/><text x="365" y="165" class="svg-muted">layers 15–24</text>
+        <rect x="302" y="100" width="126" height="26" rx="4" class="svg-accent-soft" stroke="currentColor"/><text x="365" y="117" fill="currentColor">layer 25</text>
+        <rect x="302" y="48" width="126" height="26" rx="4" class="svg-surface" stroke="currentColor"/><text x="365" y="65" fill="currentColor">layer 28 → next token</text>
+      </g>
+      <!-- taps -->
+      <g stroke-width="1.6">
+        <path d="M428,305 H480 V180" fill="none" style="stroke: var(--accent)"/>
+        <path d="M428,209 H480" fill="none" style="stroke: var(--accent)"/>
+        <path d="M428,113 H480 V180" fill="none" style="stroke: var(--accent)"/>
+        <line x1="480" y1="180" x2="530" y2="180" style="stroke: var(--accent)" marker-end="url(#ar-c2)"/>
+      </g>
+      <text x="486" y="160" font-size="10.5" class="svg-accent">hidden</text><text x="486" y="172" font-size="10.5" class="svg-accent">states</text>
+      <!-- drafter -->
+      <text x="640" y="54" font-size="13" font-weight="600" text-anchor="middle" fill="currentColor">DSpark drafter</text>
+      <rect x="532" y="64" width="216" height="232" rx="8" class="svg-surface" style="stroke: var(--accent)" stroke-width="2"/>
+      <g font-size="11.5" text-anchor="middle">
+        <rect x="546" y="78" width="188" height="28" rx="4" class="svg-accent-soft"/><text x="640" y="96" fill="currentColor">fuse the 3 feature layers</text>
+        <rect x="546" y="114" width="188" height="40" rx="4" class="svg-accent-soft"/><text x="640" y="131" fill="currentColor">3 transformer layers</text><text x="640" y="146" class="svg-muted">2 sliding-window + 1 full attn</text>
+        <rect x="546" y="162" width="188" height="28" rx="4" class="svg-accent-soft"/><text x="640" y="180" fill="currentColor">LM head (all 151,936 tokens)</text>
+        <rect x="546" y="198" width="90" height="40" rx="4" class="svg-accent-soft"/><text x="591" y="215" fill="currentColor">Markov</text><text x="591" y="230" class="svg-muted">rank 256</text>
+        <rect x="644" y="198" width="90" height="40" rx="4" class="svg-accent-soft"/><text x="689" y="215" fill="currentColor">confidence</text><text x="689" y="230" class="svg-muted">head</text>
+        <text x="640" y="268" fill="currentColor" font-weight="600">→ 8 guesses in one pass</text>
+        <text x="640" y="284" class="svg-muted">245 MB in bf16</text>
+      </g>
+      <!-- verify loop -->
+      <path d="M640,296 V352 H365 V338" fill="none" stroke="currentColor" marker-end="url(#ar-c)"/>
+      <text x="502" y="370" font-size="11.5" text-anchor="middle" class="svg-muted">target verifies the block in one step</text>
+    </svg>

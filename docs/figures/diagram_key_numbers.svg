@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 164" width="760" height="164" role="img" aria-label="2.6 times faster pages, 2.5 times peak throughput, and a 245 MB drafter that drops into stock vLLM.">
+<title>2.6 times faster pages, 2.5 times peak throughput, and a 245 MB drafter that drops into stock vLLM.</title>
+<style>
+  svg { --surface: #ffffff; --fg: #1b2a3a; --muted: #5b6472; --line: #e4e8ee; --edge: #b6bec9;
+        --ref: #8a93a3; --accent: #2b4c7e; --accent-soft: #e9eef6; --ok: #2b4c7e; --s2: #d0675a;
+        --warn: #d0675a;
+        color: var(--fg); font-family: "IBM Plex Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+  .bg { fill: var(--surface); }
+  .svg-accent { fill: var(--accent); } .svg-accent-soft { fill: var(--accent-soft); }
+  .svg-surface { fill: var(--surface); } .svg-muted { fill: var(--muted); }
+  .svg-line { stroke: var(--line); } .svg-ok { fill: var(--ok); } .svg-warn { fill: var(--warn); }
+  .svg-s2 { fill: var(--s2); }
+  .mono { font-family: "IBM Plex Mono", SFMono-Regular, Menlo, Consolas, monospace; }
+  rect[stroke="currentColor"] { stroke: var(--edge); }
+  line[stroke="currentColor"], path[stroke="currentColor"] { stroke: var(--ref); }
+  marker path { fill: var(--ref); }
+</style>
+<rect class="bg" x="0" y="0" width="760" height="164" rx="10"/>
+<g text-anchor="middle">
+<rect x="16" y="16" width="232" height="132" rx="10" class="svg-surface" stroke="currentColor"/>
+<text x="132" y="74" font-size="40" font-weight="700" class="svg-accent">2.6×</text>
+<text x="132" y="100" font-size="14" font-weight="600" fill="currentColor">faster pages</text>
+<text x="132" y="120" font-size="11.5" class="svg-muted">one user waiting on a page;</text>
+<text x="132" y="136" font-size="11.5" class="svg-muted">2.59× at 16 and 32 users</text>
+<rect x="264" y="16" width="232" height="132" rx="10" class="svg-surface" stroke="currentColor"/>
+<text x="380" y="74" font-size="40" font-weight="700" class="svg-accent">2.5×</text>
+<text x="380" y="100" font-size="14" font-weight="600" fill="currentColor">peak throughput</text>
+<text x="380" y="120" font-size="11.5" class="svg-muted">7,890 vs 3,185 output tokens/s</text>
+<text x="380" y="136" font-size="11.5" class="svg-muted">on one GPU</text>
+<rect x="512" y="16" width="232" height="132" rx="10" class="svg-surface" stroke="currentColor"/>
+<text x="628" y="74" font-size="40" font-weight="700" class="svg-accent">245 MB</text>
+<text x="628" y="100" font-size="14" font-weight="600" fill="currentColor">drop-in drafter</text>
+<text x="628" y="120" font-size="11.5" class="svg-muted">stock vLLM, one flag;</text>
+<text x="628" y="136" font-size="11.5" class="svg-muted">model and prompts unchanged</text>
+</g>
+</svg>

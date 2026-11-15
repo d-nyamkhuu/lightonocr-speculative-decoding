@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" width="760" height="250" role="img" aria-label="In the same 17 milliseconds, normal decoding produces 8 tokens while speculative decoding produces about 22.">
+<title>In the same 17 milliseconds, normal decoding produces 8 tokens while speculative decoding produces about 22.</title>
+<style>
+  svg { --surface: #ffffff; --fg: #1b2a3a; --muted: #5b6472; --line: #e4e8ee; --edge: #b6bec9;
+        --ref: #8a93a3; --accent: #2b4c7e; --accent-soft: #e9eef6; --ok: #2b4c7e; --s2: #d0675a;
+        --warn: #d0675a;
+        color: var(--fg); font-family: "IBM Plex Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+  .bg { fill: var(--surface); }
+  .svg-accent { fill: var(--accent); } .svg-accent-soft { fill: var(--accent-soft); }
+  .svg-surface { fill: var(--surface); } .svg-muted { fill: var(--muted); }
+  .svg-line { stroke: var(--line); } .svg-ok { fill: var(--ok); } .svg-warn { fill: var(--warn); }
+  .svg-s2 { fill: var(--s2); }
+  rect[stroke="currentColor"] { stroke: var(--edge); }
+  line[stroke="currentColor"], path[stroke="currentColor"] { stroke: var(--ref); }
+  marker path { fill: var(--ref); }
+
+  @keyframes k1 { 0%, 0.00% { opacity: 0 } 2.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k1 { animation: k1 10.0s linear infinite both }
+  @keyframes k2 { 0%, 8.40% { opacity: 0 } 10.90%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k2 { animation: k2 10.0s linear infinite both }
+  @keyframes k3 { 0%, 8.40% { opacity: 0 } 10.90%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k3 { animation: k3 10.0s linear infinite both }
+  @keyframes k4 { 0%, 16.80% { opacity: 0 } 19.30%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k4 { animation: k4 10.0s linear infinite both }
+  @keyframes k5 { 0%, 16.80% { opacity: 0 } 19.30%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k5 { animation: k5 10.0s linear infinite both }
+  @keyframes k6 { 0%, 25.20% { opacity: 0 } 27.70%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k6 { animation: k6 10.0s linear infinite both }
+  @keyframes k7 { 0%, 25.20% { opacity: 0 } 27.70%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k7 { animation: k7 10.0s linear infinite both }
+  @keyframes k8 { 0%, 33.60% { opacity: 0 } 36.10%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k8 { animation: k8 10.0s linear infinite both }
+  @keyframes k9 { 0%, 33.60% { opacity: 0 } 36.10%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k9 { animation: k9 10.0s linear infinite both }
+  @keyframes k10 { 0%, 42.00% { opacity: 0 } 44.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k10 { animation: k10 10.0s linear infinite both }
+  @keyframes k11 { 0%, 42.00% { opacity: 0 } 44.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k11 { animation: k11 10.0s linear infinite both }
+  @keyframes k12 { 0%, 50.40% { opacity: 0 } 52.90%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k12 { animation: k12 10.0s linear infinite both }
+  @keyframes k13 { 0%, 50.40% { opacity: 0 } 52.90%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k13 { animation: k13 10.0s linear infinite both }
+  @keyframes k14 { 0%, 58.80% { opacity: 0 } 61.30%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k14 { animation: k14 10.0s linear infinite both }
+  @keyframes k15 { 0%, 58.80% { opacity: 0 } 61.30%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k15 { animation: k15 10.0s linear infinite both }
+  @keyframes k16 { 0%, 67.20% { opacity: 0 } 69.70%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k16 { animation: k16 10.0s linear infinite both }
+  @keyframes k17 { 0%, 67.20% { opacity: 0 } 69.70%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k17 { animation: k17 10.0s linear infinite both }
+  @keyframes k18 { 0%, 0.00% { opacity: 0 } 2.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k18 { animation: k18 10.0s linear infinite both }
+  @keyframes k19 { 0%, 4.80% { opacity: 0 } 7.30%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k19 { animation: k19 10.0s linear infinite both }
+  @keyframes k20 { 0%, 16.00% { opacity: 0 } 18.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k20 { animation: k20 10.0s linear infinite both }
+  @keyframes k21 { 0%, 16.00% { opacity: 0 } 18.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k21 { animation: k21 10.0s linear infinite both }
+  @keyframes k22 { 0%, 20.80% { opacity: 0 } 23.30%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k22 { animation: k22 10.0s linear infinite both }
+  @keyframes k23 { 0%, 32.00% { opacity: 0 } 34.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k23 { animation: k23 10.0s linear infinite both }
+  @keyframes k24 { 0%, 32.00% { opacity: 0 } 34.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k24 { animation: k24 10.0s linear infinite both }
+  @keyframes k25 { 0%, 36.80% { opacity: 0 } 39.30%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k25 { animation: k25 10.0s linear infinite both }
+  @keyframes k26 { 0%, 48.00% { opacity: 0 } 50.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k26 { animation: k26 10.0s linear infinite both }
+  @keyframes k27 { 0%, 48.00% { opacity: 0 } 50.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k27 { animation: k27 10.0s linear infinite both }
+  @keyframes k28 { 0%, 52.80% { opacity: 0 } 55.30%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k28 { animation: k28 10.0s linear infinite both }
+  @keyframes k29 { 0%, 64.00% { opacity: 0 } 66.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k29 { animation: k29 10.0s linear infinite both }
+  @keyframes k30 { 0%, 64.00% { opacity: 0 } 66.50%, 92.00% { opacity: 1 } 96.00%, 100% { opacity: 0 } } .k30 { animation: k30 10.0s linear infinite both }
+  @keyframes ph { 0% { transform: translateX(0); opacity: 1 } 68.00% { transform: translateX(500px); opacity: 1 } 72.00%, 100% { transform: translateX(500px); opacity: 0 } } .ph { animation: ph 10.0s linear infinite both; opacity: 0 }
+  @media (prefers-reduced-motion: reduce) { g[class^="k"], .ph { animation: none !important; } }
+</style>
+<rect class="bg" x="0" y="0" width="760" height="250" rx="10"/>
+<defs><marker id="ar-a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+<text x="16" y="62" font-size="13" font-weight="600" fill="currentColor">Normal</text>
+<text x="16" y="78" font-size="12" class="svg-muted">1 token per step</text>
+<g font-size="11" text-anchor="middle">
+<g class="k1"><rect x="150" y="45" width="59" height="40" rx="5" class="svg-surface" stroke="currentColor"/><text x="179.5" y="69" fill="currentColor">step</text></g>
+<g class="k2"><text x="179.5" y="102" class="svg-muted">+1</text></g>
+<g class="k3"><rect x="213" y="45" width="59" height="40" rx="5" class="svg-surface" stroke="currentColor"/><text x="242.5" y="69" fill="currentColor">step</text></g>
+<g class="k4"><text x="242.5" y="102" class="svg-muted">+1</text></g>
+<g class="k5"><rect x="276" y="45" width="59" height="40" rx="5" class="svg-surface" stroke="currentColor"/><text x="305.5" y="69" fill="currentColor">step</text></g>
+<g class="k6"><text x="305.5" y="102" class="svg-muted">+1</text></g>
+<g class="k7"><rect x="339" y="45" width="59" height="40" rx="5" class="svg-surface" stroke="currentColor"/><text x="368.5" y="69" fill="currentColor">step</text></g>
+<g class="k8"><text x="368.5" y="102" class="svg-muted">+1</text></g>
+<g class="k9"><rect x="402" y="45" width="59" height="40" rx="5" class="svg-surface" stroke="currentColor"/><text x="431.5" y="69" fill="currentColor">step</text></g>
+<g class="k10"><text x="431.5" y="102" class="svg-muted">+1</text></g>
+<g class="k11"><rect x="465" y="45" width="59" height="40" rx="5" class="svg-surface" stroke="currentColor"/><text x="494.5" y="69" fill="currentColor">step</text></g>
+<g class="k12"><text x="494.5" y="102" class="svg-muted">+1</text></g>
+<g class="k13"><rect x="528" y="45" width="59" height="40" rx="5" class="svg-surface" stroke="currentColor"/><text x="557.5" y="69" fill="currentColor">step</text></g>
+<g class="k14"><text x="557.5" y="102" class="svg-muted">+1</text></g>
+<g class="k15"><rect x="591" y="45" width="59" height="40" rx="5" class="svg-surface" stroke="currentColor"/><text x="620.5" y="69" fill="currentColor">step</text></g>
+<g class="k16"><text x="620.5" y="102" class="svg-muted">+1</text></g>
+</g>
+<g class="k17"><text x="668" y="70" font-size="13" font-weight="600" fill="currentColor">8 tokens</text></g>
+<text x="16" y="152" font-size="13" font-weight="600" fill="currentColor">Speculative</text>
+<text x="16" y="168" font-size="12" class="svg-muted">draft 7, verify 8</text>
+<g font-size="11" text-anchor="middle">
+<g class="k18"><rect x="150" y="135" width="36" height="40" rx="5" class="svg-accent-soft" stroke="currentColor"/><text x="168" y="159" fill="currentColor">draft</text></g>
+<g class="k19"><rect x="186" y="135" width="84" height="40" rx="5" class="svg-surface" stroke="currentColor"/><text x="228" y="159" fill="currentColor">verify</text></g>
+<g class="k20"><text x="210" y="192" class="svg-accent" font-weight="600">+5.5</text></g>
+<g class="k21"><rect x="274" y="135" width="36" height="40" rx="5" class="svg-accent-soft" stroke="currentColor"/><text x="292" y="159" fill="currentColor">draft</text></g>
+<g class="k22"><rect x="310" y="135" width="84" height="40" rx="5" class="svg-surface" stroke="currentColor"/><text x="352" y="159" fill="currentColor">verify</text></g>
+<g class="k23"><text x="334" y="192" class="svg-accent" font-weight="600">+5.5</text></g>
+<g class="k24"><rect x="398" y="135" width="36" height="40" rx="5" class="svg-accent-soft" stroke="currentColor"/><text x="416" y="159" fill="currentColor">draft</text></g>
+<g class="k25"><rect x="434" y="135" width="84" height="40" rx="5" class="svg-surface" stroke="currentColor"/><text x="476" y="159" fill="currentColor">verify</text></g>
+<g class="k26"><text x="458" y="192" class="svg-accent" font-weight="600">+5.5</text></g>
+<g class="k27"><rect x="522" y="135" width="36" height="40" rx="5" class="svg-accent-soft" stroke="currentColor"/><text x="540" y="159" fill="currentColor">draft</text></g>
+<g class="k28"><rect x="558" y="135" width="84" height="40" rx="5" class="svg-surface" stroke="currentColor"/><text x="600" y="159" fill="currentColor">verify</text></g>
+<g class="k29"><text x="582" y="192" class="svg-accent" font-weight="600">+5.5</text></g>
+</g>
+<g class="k30"><text x="668" y="160" font-size="13" font-weight="600" class="svg-accent">≈22 tokens</text></g>
+<line x1="150" y1="222" x2="650" y2="222" stroke="currentColor" marker-end="url(#ar-a)"/>
+<line class="ph" x1="150" y1="36" x2="150" y2="212" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3 3"/>
+<text x="150" y="240" font-size="11.5" class="svg-muted">0 ms</text>
+<text x="650" y="240" font-size="11.5" class="svg-muted" text-anchor="end">≈17 ms (to scale: 2.1 ms per normal step, 4.0 ms per speculative step)</text>
+</svg>
