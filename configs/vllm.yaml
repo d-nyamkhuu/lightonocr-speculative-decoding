@@ -1,0 +1,14 @@
+# Server settings shared by every `vllm serve` in the README: `vllm serve data/model --config
+# configs/vllm.yaml ...`. Flags given on the command line take precedence over this file.
+served-model-name: lightonai/LightOnOCR-2-1B
+host: 127.0.0.1
+port: 8000
+dtype: bfloat16
+max-model-len: 8192
+gpu-memory-utilization: 0.85
+# The training pages are sent as file:// URLs under data/; the README mounts the repo at /work.
+allowed-local-media-path: /work/data
+limit-mm-per-prompt:
+  image: 1
+mm-processor-cache-gb: 0
+no-enable-prefix-caching: true

@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "target": "lightonai/LightOnOCR-2-1B",
+  "target_revision": "be7c41313c30e940fe5571de59e5fabc779e00c8",
+  "bench_dataset": "allenai/olmOCR-bench",
+  "bench_revision": "54a96a6fb6a2bd3b297e59869491db4d3625b711",
+  "pages": 100,
+  "page_seed": 1729,
+  "render_longest_px": 1540,
+  "natural_max_tokens": 4096,
+  "eval_sampling": {"temperature": 0.2, "top_p": 0.9},
+  "eval_throughput": {"concurrency": [64, 128], "requests": 600},
+  "fixed_tokens": 1024,
+  "warmup_requests": 2,
+  "concurrency": [
+    1,
+    4,
+    16,
+    32
+  ],
+  "baseline_extra_concurrency": [
+    64,
+    128
+  ],
+  "requests_per_concurrency": {
+    "1": 6,
+    "4": 16,
+    "16": 48,
+    "32": 64,
+    "64": 128,
+    "128": 256
+  },
+  "ngram": {
+    "prompt_lookup_min": 2,
+    "prompt_lookup_max": 5,
+    "num_speculative_tokens": 5
+  },
+  "variants": [
+    {
+      "name": "dflash2-l4-b8",
+      "type": "dflash2",
+      "num_layers": 4,
+      "block_size": 8,
+      "k": [
+        7
+      ],
+      "draft_vocab_size": null,
+      "target_layer_ids": [
+        1,
+        9,
+        17,
+        25
+      ]
+    },
+    {
+      "name": "dflash2-l2-b8",
+      "type": "dflash2",
+      "num_layers": 2,
+      "block_size": 8,
+      "k": [
+        7
+      ],
+      "draft_vocab_size": null,
+      "target_layer_ids": [
+        1,
+        9,
+        17,
+        25
+      ]
+    },
+    {
+      "name": "dflash2-l4-b16",
+      "type": "dflash2",
+      "num_layers": 4,
+      "block_size": 16,
+      "k": [
+        15
+      ],
+      "draft_vocab_size": null,
+      "target_layer_ids": [
+        1,
+        9,
+        17,
+        25
+      ]
+    },
+    {
+      "name": "dflash-l4-b8-v32k",
+      "type": "dflash",
+      "num_layers": 4,
+      "block_size": 8,
+      "k": [
+        7
+      ],
+      "draft_vocab_size": 32000,
+      "target_layer_ids": [
+        1,
+        9,
+        17,
+        25
+      ]
+    },
+    {
+      "name": "dspark-l3-b8-v32k",
+      "type": "dspark",
+      "num_layers": 3,
+      "block_size": 8,
+      "k": [
+        7
+      ],
+      "draft_vocab_size": 32000,
+      "target_layer_ids": [
+        2,
+        14,
+        25
+      ],
+      "markov_rank": 256
+    },
+    {
+      "name": "eagle3-l1-v32k",
+      "type": "eagle3",
+      "num_layers": 1,
+      "block_size": null,
+      "k": [
+        3,
+        5
+      ],
+      "draft_vocab_size": 32000,
+      "target_layer_ids": [
+        2,
+        14,
+        25
+      ]
+    }
+  ],
+  "decision": {
+    "prior_tau": {
+      "dflash2": 3.5,
+      "dflash": 3.5,
+      "dspark": 3.5,
+      "eagle3": 3.0
+    },
+    "score_concurrency": [
+      1,
+      16
+    ],
+    "min_speedup": {
+      "1": 1.3,
+      "16": 1.1
+    },
+    "min_gain_over_ngram": 0.1,
+    "tie_margin": 0.05
+  },
+  "train_data": {
+    "dataset": "allenai/olmOCR-mix-1025",
+    "revision": "d3c045014fac170a5af53d953a6d72071a023c60",
+    "subsets": {
+      "00_documents_train": {
+        "tarballs": 3,
+        "pages": 12500
+      },
+      "01_books_train": {
+        "tarballs": 1,
+        "pages": 3000
+      },
+      "02_loc_transcripts_train": {
+        "tarballs": 2,
+        "pages": 2500
+      },
+      "03_national_archives_train": {
+        "tarballs": 4,
+        "pages": 2500
+      }
+    },
+    "val_per_mille": 25,
+    "seed": 1729,
+    "render_longest_px": 1540
+  },
+  "eval_pages": 300,
+  "dspark": {
+    "name": "dspark-l3-b8-full",
+    "type": "dspark",
+    "step_cost_proxy": "dspark-l3-b8-v32k",
+    "num_layers": 3,
+    "block_size": 8,
+    "target_layer_ids": [
+      2,
+      14,
+      25
+    ],
+    "draft_vocab_size": null,
+    "markov_rank": 256
+  },
+  "drafter_pipeline": {
+    "report_note": "Historical results: training predates the document-level validation split."
+  }
+}

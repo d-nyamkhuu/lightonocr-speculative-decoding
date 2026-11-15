@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# ocrdraft: work files (model, pages, hidden states, checkpoints) and raw results are not published
+/data/
+results/**/raw/
+results/**/sampled_raw/
+results/**/throughput_raw/
+*.safetensors
+# State and SSH keys left by the removed VM controller; never commit
+.cloud/
+/tests/
